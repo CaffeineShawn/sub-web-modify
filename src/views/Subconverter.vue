@@ -474,6 +474,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+          "shawnlab.icu": "http://192.168.2.210:25500",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one",
@@ -492,6 +493,16 @@ export default {
           {value: "https://api.dler.io"},
         ],
         remoteConfig: [
+          {
+            label: "自定义",
+            options: [
+              {
+                label: "warp增强代理",
+                value: "https://gist.githubusercontent.com/CaffeineShawn/03cd4daa7d8c2e5f6959931b6f5bb836/raw/6e02eb9e854af54deddf373b14447cc743c03f46/my.ini"
+            
+              }
+            ]
+          },
           {
             label: "通用",
             options: [
